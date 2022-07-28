@@ -1,0 +1,66 @@
+  1 #include "main.h"                                                                                                                   
+
+  2 #include <stdio.h>                                                                                                                  
+
+  3                                                                                                                                     
+
+  4 int actual_sqrt_recursion(int n, int i);                                                                                            
+
+  5                                                                                                                                     
+
+  6 /**                                                                                                                                 
+
+  7  * _sqrt_recursion - returns the natural square root of a number                                                                    
+
+  8  * @n: number to calculate the square root of                                                                                       
+
+  9  * Return: the resulting square root                                                                                                
+
+ 10  */                                                                                                                                 
+
+ 11                                                                                                                                     
+
+ 12 int _sqrt_recursion(int n)                                                                                                          
+
+ 13 {                                                                                                                                   
+
+ 14 if (n < 0)                                                                                                                          
+
+ 15 return (-1);                                                                                                                        
+
+ 16 return (actual_sqrt_recursion(n, 0));                                                                                               
+
+ 17 }                                                                                                                                   
+
+ 18                                                                                                                                     
+
+ 19 /**                                                                                                                                 
+
+ 20  * actual_sqrt_recursion - recurses to find the natural                                                                             
+
+ 21  * square root of a number                                                                                                          
+
+ 22  * @n: number to calculate the sqaure root of                                                                                       
+
+ 23  * @i: iterator                                                                                                                     
+
+ 24  * Return: the resulting square root                                                                                                
+
+ 25  */                                                                                                                                 
+
+ 26                                                                                                                                     
+
+ 27 int actual_sqrt_recursion(int n, int i)                                                                                             
+
+ 28 {                                                                                                                                   
+
+ 29 if (i * i > n)                                                                                                                      
+
+ 30 return (-1);                                                                                                                        
+
+ 31 if (i * i == n)                                                                                                                     
+
+ 32 return (i);                                                                                                                         
+
+ 33 return (actual_sqrt_recursion(n, i + 1));                                                                                           
+
