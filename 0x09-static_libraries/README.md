@@ -1,0 +1,1 @@
+This is my director for static library tasks.
