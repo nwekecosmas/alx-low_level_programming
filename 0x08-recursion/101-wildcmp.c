@@ -53,30 +53,16 @@ return (wildcmp(s1, s2));
 return (bandersnatch(s1 + 1, s2));
 }
 
-
-
 /**
-
 * move - moves the current char past the *
-
 * @s2: string to iterate over
-
 * Return: the address of the character after the *
-
 */
 
-
-
 char *move(char *s2)
-
 {
-
 if (*s2 == '*')
-
 return (move(s2 + 1));
-
 else
-
 return (s2);
-
 }
