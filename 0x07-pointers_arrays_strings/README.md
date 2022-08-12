@@ -1,1 +1,1 @@
-This is my readme for this directory.
+Even more pointers, arrays and strings07

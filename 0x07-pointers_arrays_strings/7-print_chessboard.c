@@ -1,24 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* print_chessboard - prints the chessboard
-* @a: the board to print
+* print_chessboard - print chessboard
+* @a: pointer to chessboard
 */
 
 void print_chessboard(char (*a)[8])
 {
-int c, d;
-c = d = 0;
-while (c < 8)
-{
-d = 0;
-while (d < 8)
-{
-_putchar(a[c][d]);
-d++;
-}
-_putchar('\n');
-c++;
-}
+
+	int x, y;
+
+	for (y = 0; y < 8; y++)
+	{
+		for (x = 0; x < 8; x++)
+			_putchar(a[y][x]);
+		_putchar('\n');
+	}
 }

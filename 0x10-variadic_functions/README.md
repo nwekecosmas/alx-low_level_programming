@@ -1,1 +1,1 @@
-# 0x10-variadic_functions
+This directory is about variadic functions

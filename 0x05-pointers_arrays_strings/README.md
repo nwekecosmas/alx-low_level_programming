@@ -1,1 +1,1 @@
-this is my readme for this directory
+Directory for Pointers, Arrays and Strings

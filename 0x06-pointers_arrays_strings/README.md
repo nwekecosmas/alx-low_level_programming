@@ -1,1 +1,1 @@
-this is my readme for 0x06-pointers_arrays_strings directory
+VimCrypt~03!­/Hž´fLMŠÓ.?ónUÉ9Lcp'>5½ç)Ttþôh³¾b-†àív.Î¬

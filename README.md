@@ -1,1 +1,1 @@
-my readme for this lesson
+this is my readme for this task 12 . date is 12 august 2022 9:06pm

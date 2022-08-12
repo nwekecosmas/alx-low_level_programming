@@ -1,20 +1,21 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* _strlen - calculates the length of a string
-* @s: pointer to the array
-* Return: length of the string
-*/
-
+ * _strlen - returns the length of a string
+ * @s: string to evaluate
+ *
+ * Return: the length of the string
+ */
 int _strlen(char *s)
 {
-int z;
-z = 0;
-while (*s != '\0')
-{
-z++;
-s++;
-}
-return (z);
+	int i;
+
+	i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
